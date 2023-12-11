@@ -25,12 +25,12 @@ const Header = () => {
         className="p-1 font-normal"
       >
         <button className="bg-gradient-to-r from-teal-400 via-teal-800 to-green-500 min-w-[150px] text-white p-[1px]">
-          <Link
-            to="/about"
+          <a
+            href="#contact"
             className="flex px-10 w-full justify-center items-center  bg-[#0f172a] p-2"
           >
             About
-          </Link>
+          </a>
         </button>
       </Typography>
       <Typography
@@ -40,27 +40,12 @@ const Header = () => {
         className="p-1 font-normal"
       >
         <button className="bg-gradient-to-r min-w-[150px] from-teal-400 via-teal-800 to-green-500 text-white p-[1px]">
-          <Link
-            to="/about"
-            className="flex px-10 w-full justify-center items-center  bg-[#0f172a] p-2"
-          >
-            Experience
-          </Link>
-        </button>
-      </Typography>
-      <Typography
-        as="li"
-        variant="small"
-        color="teal"
-        className="p-1 font-normal"
-      >
-        <button className="bg-gradient-to-r min-w-[150px] from-teal-400 via-teal-800 to-green-500 text-white p-[1px]">
-          <Link
-            to="/about"
+          <a
+            href="#projects"
             className="flex px-10 w-full  justify-center items-center bg-[#0f172a] p-2"
           >
-            Work
-          </Link>
+            Projects
+          </a>
         </button>
       </Typography>
       <Typography
@@ -70,12 +55,12 @@ const Header = () => {
         className="p-1 font-normal"
       >
         <button className="bg-gradient-to-r  min-w-[150px] from-teal-400 via-teal-800 to-green-500 text-white p-[1px]">
-          <Link
-            to="/about"
+          <a
+            href="#contact"
             className="flex px-10 w-full justify-center items-center  bg-[#0f172a] p-2"
           >
             Contact
-          </Link>
+          </a>
         </button>
       </Typography>
     </ul>
